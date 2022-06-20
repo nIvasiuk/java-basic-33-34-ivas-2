@@ -1,70 +1,72 @@
 package com.berlin.telran.practicesecond;
 
 public class Cat {
-    String breed;
-    int age;
-    String name;
-    String colour;
-    int height;
-    int weight;
-    String eyeColour;
+    //  Для большей защиты требуется определить свойства как private
+    private String breed;
+    private int age;
+    private String name;
+    private String colour;
+    private int height;
+    private int weight;
+    private String eyeColour;
 
-
+    // задание значения должно быть через this, означающее экземпляр класса
     public void setBreed(String text) {
-        breed = text;
+        this.breed = text;
     }
-
+    
+    // возврат значения экземпляра тоже через this
     public String getBreed() {
-        return breed;
+        return this.breed;
     }
 
     public void setAge(int number) {
-        age = number;
+        this.age = number;
     }
 
     public int getAge() {
-        return age;
+        return this.age;
     }
 
     public void setName(String text) {
-        name = text;
+        this.name = text;
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public void setColour(String text) {
-        colour = text;
+        this.colour = text;
     }
 
     public String getColour() {
-        return colour;
+        return this.colour;
     }
 
     public void setHeight(int number) {
-        height = number;
+        this.height = number;
     }
 
     public int getHeight() {
-        return height;
+        return this.height;
     }
 
     public void setWeight(int number) {
-        weight = number;
+        this.weight = number;
     }
 
     public int getWeight() {
-        return weight;
+        return this.weight;
     }
 
 
     public void setEyeColour(String text) {
-        eyeColour = text;
+        this.eyeColour = text;
     }
 
     public String getEyeColour() {
-        return eyeColour;
+        this.return eyeColour;
     }
 
 }
