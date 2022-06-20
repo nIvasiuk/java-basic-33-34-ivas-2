@@ -4,36 +4,28 @@ public class Main {
     public static void main(String[] args) {
 
         Cat myCat = new Cat();
+        
+        // для большей упорядоченности кода я бы разделил код
+        // в первой части - только задание параметров, во второй - только чтение.
+        // это облегчит чтение и понимание того, какой код был создан
+        
+        // Set parameters
         myCat.setBreed("Tiger");
-
-        System.out.println(myCat.getBreed());
-
         myCat.setAge(15);
-
-        System.out.println(myCat.getAge());
-
         myCat.setName("Barsik");
-
-        System.out.println(myCat.getName());
-
         myCat.setColour("Black");
-
-        System.out.println(myCat.getColour());
-
-
         myCat.setHeight(30);
-
-        System.out.println(myCat.getHeight());
-
         myCat.setWeight(5);
-
-        System.out.println(myCat.getWeight());
-
         myCat.setEyeColour("Green");
-
+        
+        // Print parameters
+        System.out.println(myCat.getBreed());
+        System.out.println(myCat.getAge());
+        System.out.println(myCat.getName());
+        System.out.println(myCat.getColour());
+        System.out.println(myCat.getHeight());
+        System.out.println(myCat.getWeight());
         System.out.println(myCat.getEyeColour());
-
-            }
-
-
+        
+        }
 }
