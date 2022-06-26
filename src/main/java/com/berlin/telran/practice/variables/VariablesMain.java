@@ -1,7 +1,5 @@
 package com.berlin.telran.practice.variables;
 
-import com.berlin.telran.practice.introduction.Dog;
-
 public class VariablesMain {
 
     public static  int var =5;

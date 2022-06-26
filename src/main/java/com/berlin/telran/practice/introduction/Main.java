@@ -1,7 +1,6 @@
 package com.berlin.telran.practice.introduction;
 
 import com.berlin.telran.homework.Cat;
-import com.berlin.telran.practice.introduction.Dog;
 
 public class Main {
     public static void main(String[] args) {

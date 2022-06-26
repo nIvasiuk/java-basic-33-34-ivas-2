@@ -1,7 +1,5 @@
 package com.berlin.telran.practice.variables;
 
-import com.berlin.telran.practice.introduction.Dog;
-
 public class Main {
     public static void main(String[] args) {
         VariablesMain.main2();
