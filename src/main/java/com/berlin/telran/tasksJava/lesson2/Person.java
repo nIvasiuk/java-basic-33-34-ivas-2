@@ -1,4 +1,4 @@
-package com.berlin.telran.tmp.lesson2;
+package com.berlin.telran.tasksJava.lesson2;
 
 public class Person {
    String name;

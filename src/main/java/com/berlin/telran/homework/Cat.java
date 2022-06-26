@@ -1,4 +1,4 @@
-package com.berlin.telran.practice;
+package com.berlin.telran.homework;
 
 public class Cat {
     String breed;

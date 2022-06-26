@@ -1,4 +1,6 @@
-package com.berlin.telran.practice;
+package com.berlin.telran.homework;
+
+import com.berlin.telran.homework.Cat;
 
 public class Main {
     public static void main(String[] args) {

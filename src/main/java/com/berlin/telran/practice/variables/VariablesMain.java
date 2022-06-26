@@ -2,9 +2,36 @@ package com.berlin.telran.practice.variables;
 
 import com.berlin.telran.practice.introduction.Dog;
 
-public class Main {
-    public static void main(String[] args) {
-        Variable variable = new Variable();
-        Dog dog = new Dog();
+public class VariablesMain {
+
+    public static  int var =5;
+    public int var2 = 5;
+
+    public static void main2() {
+        int abc = 3;
+        System.out.println("abc: " + abc);
+
+    }
+
+    public void main3() {
+
+        int abc = 3;
+        System.out.println("abc: " + abc);
+
+    }
+
+    public int getVar2() {
+        return var2;
+    }
+
+    public void setVar2(int var2) {
+        this.var2 = var2;
+    }
+
+    public static int getVar() {
+        return var;
     }
 }
+
+
+
