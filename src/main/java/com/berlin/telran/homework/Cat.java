@@ -1,4 +1,4 @@
-package com.berlin.telran.practicesecond;
+package com.berlin.telran.practice;
 
 public class Cat {
     String breed;
@@ -11,7 +11,7 @@ public class Cat {
 
 
     public void setBreed(String text) {
-        breed = text;
+                breed = text;
     }
 
     public String getBreed() {

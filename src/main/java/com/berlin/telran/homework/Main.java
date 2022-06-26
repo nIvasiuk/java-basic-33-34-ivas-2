@@ -1,4 +1,4 @@
-package com.berlin.telran.practicesecond;
+package com.berlin.telran.practice;
 
 public class Main {
     public static void main(String[] args) {
@@ -33,7 +33,7 @@ public class Main {
 
         System.out.println(myCat.getEyeColour());
 
-            }
+    }
 
 
 }
