@@ -2,10 +2,10 @@ package com.berlin.telran.homework.game.hero;
 
 public class Elf {
 
-    int id;
-    String name;
-    String weapon;
-    String helmet;
-    String armor;
-    String shoose;
+    private int id;
+    private String name;
+    private String weapon;
+    private String helmet;
+    private String armor;
+    private String shoose;
 }
