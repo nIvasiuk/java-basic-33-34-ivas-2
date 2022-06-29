@@ -4,13 +4,14 @@ public class Elf {
 
     private long id;
     private String name;
-
     private boolean gender;
-
     private int level;
-
     private int fortune;
     private String armor;
+
+    private int power;
+    private int charisma;
+    private int magic;
 
 
     public Elf() {
@@ -20,11 +21,8 @@ public class Elf {
         return id;
     }
 
-    public void setId(long id) {
-        this.id = id;
-    }
-
-    public String getName() {
+    public String getName()
+    {
         return name;
     }
 
@@ -35,7 +33,6 @@ public class Elf {
     public boolean isGender() {
         return gender;
     }
-
     public void setGender(boolean gender) {
         this.gender = gender;
     }
