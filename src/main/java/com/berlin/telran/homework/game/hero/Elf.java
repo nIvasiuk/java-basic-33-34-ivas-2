@@ -2,18 +2,25 @@ package com.berlin.telran.homework.game.hero;
 
 public class Elf {
 
-    private int id;
+    private long id;
     private String name;
-    private String weapon;
-    private String helmet;
-    private String armor;
-    private String shoose;
 
-    public int getId() {
+    private boolean gender;
+
+    private int level;
+
+    private int fortune;
+    private String armor;
+
+
+    public Elf() {
+    }
+
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 
@@ -25,20 +32,28 @@ public class Elf {
         this.name = name;
     }
 
-    public String getWeapon() {
-        return weapon;
+    public boolean isGender() {
+        return gender;
     }
 
-    public void setWeapon(String weapon) {
-        this.weapon = weapon;
+    public void setGender(boolean gender) {
+        this.gender = gender;
     }
 
-    public String getHelmet() {
-        return helmet;
+    public int getLevel() {
+        return level;
     }
 
-    public void setHelmet(String helmet) {
-        this.helmet = helmet;
+    public void setLevel(int level) {
+        this.level = level;
+    }
+
+    public int getFortune() {
+        return fortune;
+    }
+
+    public void setFortune(int fortune) {
+        this.fortune = fortune;
     }
 
     public String getArmor() {
@@ -49,11 +64,4 @@ public class Elf {
         this.armor = armor;
     }
 
-    public String getShoose() {
-        return shoose;
-    }
-
-    public void setShoose(String shoose) {
-        this.shoose = shoose;
-    }
-}
+   }
