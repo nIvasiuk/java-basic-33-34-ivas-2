@@ -20,7 +20,13 @@ public class TestScaner {
         char gener = sc.next().charAt(0);  //оторавть первый символ от строки которую ты вводишь
 
         System.out.println("Enter the age:");
-        int age = sc.nextInt();
+        int age = 0;
+
+        if (sc.hasNextInt()) {
+            age = sc.nextInt();
+        } else {
+            System.out.println("Sorry, but this is wrong format age!");
+        }
 
         System.out.println("Enter the mobile phone:");
         long phone = sc.nextLong();
