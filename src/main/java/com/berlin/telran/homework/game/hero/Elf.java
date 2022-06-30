@@ -1,5 +1,7 @@
 package com.berlin.telran.homework.game.hero;
 
+import com.berlin.telran.homework.game.constsnt.Constant;
+
 public class Elf {
 
     private long id;
@@ -21,9 +23,19 @@ public class Elf {
 
     public Elf(long id) {
         this.id = id;
-
+        this.power = Constant.ELF_POWER;
+        this.charisma = Constant.ELF_CHARISMA;
+        this.magic = Constant.ELF_MAGIC;
     }
 //construktor with parameters
+
+
+//    public Elf(long id, int power, int charisma, int magic) {
+//        this.id = id;
+//        this.power = power;
+//        this.charisma = charisma;
+//        this.magic = magic;
+//    }
 
     public long getId() {
         return id;
