@@ -17,6 +17,14 @@ public class Elf {
     public Elf() {
     }
 
+    //default construktor
+
+    public Elf(long id) {
+        this.id = id;
+
+    }
+//construktor with parameters
+
     public long getId() {
         return id;
     }
