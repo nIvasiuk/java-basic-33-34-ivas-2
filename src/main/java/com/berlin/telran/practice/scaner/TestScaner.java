@@ -25,7 +25,8 @@ public class TestScaner {
             age = sc.nextInt();
         } else {
             System.out.println("Sorry, but this is wrong format age!");
-            sc.next();
+           age=0;
+           sc.next();
         }
 
         System.out.println("Enter the mobile phone:");
