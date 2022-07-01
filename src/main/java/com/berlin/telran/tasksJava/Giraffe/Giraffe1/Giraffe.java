@@ -1,4 +1,4 @@
-package com.berlin.telran.tasksJava.Giraffe;
+package com.berlin.telran.tasksJava.Giraffe.Giraffe1;
 
 public class Giraffe {
 
@@ -15,7 +15,22 @@ public class Giraffe {
     //age, weight - constants
 
 
-    private String name;
-    private String colour;
-    private String adress;
+    public String name;
+public int age;
+public int weight;
+    public String address;
+    public String colour;
+
+    public Giraffe (String name) {
+        this.name=name;
+
+    }
+
+    public Giraffe (String name, int age) {
+        this.name=name;
+        this.age=age;
+        this.weight=100;
+        this.colour="yellow";
+
+    }
 }
