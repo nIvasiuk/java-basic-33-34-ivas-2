@@ -1,6 +1,7 @@
 package com.berlin.telran.homework.game;
 
 import com.berlin.telran.homework.game.hero.Elf;
+import com.berlin.telran.homework.game.hero.Ork;
 
 public class GameMain {
     public static void main(String[] args) {
@@ -11,6 +12,8 @@ public class GameMain {
         Elf elf3 = new Elf(3);
 
         Elf elf4 = new Elf(4);
+
+        Ork ork1 = new Ork();
 
      //  Elf elf3 = new Elf(3, 5, 10, 10)
         System.out.println(elf2.getId());

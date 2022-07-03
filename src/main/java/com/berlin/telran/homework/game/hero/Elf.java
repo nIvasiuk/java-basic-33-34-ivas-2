@@ -19,7 +19,7 @@ public class Elf {
     public Elf() {
     }
 
-    //default construktor
+    //default constructor
 
     public Elf(long id) {
         this.id = id;
@@ -27,7 +27,7 @@ public class Elf {
         this.charisma = Constant.ELF_CHARISMA;
         this.magic = Constant.ELF_MAGIC;
     }
-//construktor with parameters
+//constructor with parameters
 
 
 //    public Elf(long id, int power, int charisma, int magic) {

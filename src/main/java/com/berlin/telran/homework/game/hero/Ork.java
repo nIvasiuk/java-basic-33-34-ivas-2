@@ -14,6 +14,12 @@ public class Ork {
     private int charisma;
     private int magic;
 
+    public Ork () {
+
+    }
+
+
+
     public long getId() {
         return id;
     }
