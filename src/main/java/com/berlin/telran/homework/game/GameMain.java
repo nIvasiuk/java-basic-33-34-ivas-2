@@ -13,10 +13,11 @@ public class GameMain {
 
         Elf elf4 = new Elf(4);
 
-        Ork ork1 = new Ork();
+        Ork ork1 = new Ork(001);
 
      //  Elf elf3 = new Elf(3, 5, 10, 10)
-        System.out.println(elf2.getId());
+        System.out.println("Elf id : " + elf2.getId());
+        System.out.println("Ork id : " + ork1.getId());
 
     }
 

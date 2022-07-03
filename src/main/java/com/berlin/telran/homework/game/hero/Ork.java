@@ -1,5 +1,7 @@
 package com.berlin.telran.homework.game.hero;
 
+import com.berlin.telran.homework.game.constsnt.Constant;
+
 public class Ork {
 
     private long id;
@@ -18,7 +20,13 @@ public class Ork {
 
     }
 
+public Ork (long id) {
+        this.id = id;
+        this.power = Constant.ORK_POWER;
+        this.charisma = Constant.ORK_CHARISMA;
+        this.magic = Constant.ORK_MAGIC;
 
+}
 
     public long getId() {
         return id;
