@@ -29,6 +29,7 @@ public int weight;
     public Giraffe (String name, int age) {
         this.name=name;
         this.age=age;
+
         this.weight=100;
         this.colour="yellow";
 
