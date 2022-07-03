@@ -10,6 +10,10 @@ public class Ork {
     private String armor;
 
 
+    private int power;
+    private int charisma;
+    private int magic;
+
     public long getId() {
         return id;
     }
