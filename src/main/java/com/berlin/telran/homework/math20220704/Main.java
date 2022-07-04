@@ -19,16 +19,26 @@ public class Main {
         System.out.println("Enter the first number :");
         int number1 = sc.nextInt();
 
-        System.out.println("Thank you! You entred a number " + number1);
+
+       // System.out.println("Thank you! You entred a number " + number1);
 
 
         System.out.println("Enter the second number :");
 
         int number2 = sc.nextInt();
 
-        System.out.println("Thank you! You entred a number " + number2);
+        // System.out.println("Thank you! You entred a number " + number2);
 
-        System.out.println();
+
+
+        System.out.println("number1 = " + number1 + "     number2 = " + number2);
+        int summa = number1+number2;
+        int minus = number1-number2;
+
+        System.out.println(number1 + " + " + number2 + " = " + summa);
+        System.out.println(number1 + " - " + number2 + " = " + minus);
+
+
 
 
 
