@@ -81,9 +81,11 @@ public class Casting  {
         System.out.println("int value = " + f);
 
         // valueOf()
-
         int r = Integer.parseInt(String.valueOf(ch));
         System.out.println("int value from method valueOf() = " +r);
+
+        int e = Character.getNumericValue(ch);
+        System.out.println("int value from method getNumericValue() = " + e);
 
 
 
