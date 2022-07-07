@@ -16,22 +16,44 @@ public class Giraffe {
 
 
     public String name;
-public int age;
-public int weight;
+    public static int age = 2;
+    public  static int weight = 100;
     public String address;
     public String colour;
 
+
+    // 1.  самый простой контструктор содержит один параметр name
     public Giraffe (String name) {
-        this.name=name;
-
+        this.name = name;
     }
 
+    // 2. конструктор, имеющий name and  age. weight для всех жирафов будет одинаковый
     public Giraffe (String name, int age) {
-        this.name=name;
-        this.age=age;
+        this.name = name;
+        this.age = age;
+        this.weight = 100;
+    }
 
-        this.weight=100;
-        this.colour="yellow";
+    // 3. В третьем добавляется weight жирафа   name age weight
+    public Giraffe (String name, int age, int weight) {
+        this.name = name;
+        this.age = age;
+        Giraffe.weight = weight;
+    }
+
+    // 4.weight, color (name, address, and age неизвестны)
+
+    public Giraffe (int weight, String colour) {
+        Giraffe.weight = 100;
+        this.colour = "yellow";
+    }
+
+    //5.weight,color, address
+
+    public Giraffe (int weight, String colour, String address) {
+        this.weight = weight;
+        this.colour = "yellow";
 
     }
+
 }
