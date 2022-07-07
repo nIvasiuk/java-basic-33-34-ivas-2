@@ -12,12 +12,12 @@ public class Giraffe {
     // есть обязательные параметры для конструкторов 2-5 : возраст, вес, цвет.
     // Они присутствуют у всех создаваемых жирафов
     // и есть не обязательные : имя и адрес
-    //age, weight - constants
+
 
 
     public String name;
-    public static int age = 2;
-    public  static int weight = 100;
+    public int age;
+    public  int weight;
     public String address;
     public String colour;
 
@@ -38,21 +38,22 @@ public class Giraffe {
     public Giraffe (String name, int age, int weight) {
         this.name = name;
         this.age = age;
-        Giraffe.weight = weight;
+        this.weight = weight;
     }
 
     // 4.weight, color (name, address, and age неизвестны)
 
     public Giraffe (int weight, String colour) {
-        Giraffe.weight = 100;
-        this.colour = "yellow";
+        this.weight = weight;
+        this.colour = colour;
     }
 
     //5.weight,color, address
 
     public Giraffe (int weight, String colour, String address) {
         this.weight = weight;
-        this.colour = "yellow";
+        this.colour = colour;
+        this.address = address;
 
     }
 
