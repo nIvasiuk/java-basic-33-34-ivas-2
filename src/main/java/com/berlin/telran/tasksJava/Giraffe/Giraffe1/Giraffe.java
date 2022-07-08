@@ -32,6 +32,7 @@ public class Giraffe {
         this.name = name;
         this.age = age;
         this.weight = 100;
+        this.colour = "yellow";
     }
 
     // 3. В третьем добавляется weight жирафа   name age weight
@@ -39,6 +40,7 @@ public class Giraffe {
         this.name = name;
         this.age = age;
         this.weight = weight;
+        this.colour = "white";
     }
 
     // 4.weight, color (name, address, and age неизвестны)
@@ -46,6 +48,8 @@ public class Giraffe {
     public Giraffe (int weight, String colour) {
         this.weight = weight;
         this.colour = colour;
+        this.age = 2;
+
     }
 
     //5.weight,color, address
@@ -54,6 +58,7 @@ public class Giraffe {
         this.weight = weight;
         this.colour = colour;
         this.address = address;
+        this.age = 3;
 
     }
 

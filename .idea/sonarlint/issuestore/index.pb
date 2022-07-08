@@ -16,3 +16,17 @@ m
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+k
+;src/main/java/com/berlin/telran/homework/game/hero/Ork.java,4\5\451aa7144ce1a17c1092ee08291a65d8f7561ec4
+l
+<src/main/java/com/berlin/telran/practice/variables/Main.java,8\a\8a366fcbfe1bbf7c0351d7f060ad9c31c5562f72
+x
+Hsrc/main/java/com/berlin/telran/tasksJava/TaskJava_22_06_17new/Math.java,4\6\46b91d885b00b4fb9c50c398ec8bcd4237bc9b15
+p
+@src/main/java/com/berlin/telran/practice/variables/Variable.java,3\2\32d054afceb36c3d2c6376b55beb7abaa0cb96e8
+u
+Esrc/main/java/com/berlin/telran/practice/variables/VariablesMain.java,c\0\c0485b23b20b3eab62e02a16f9a52ad890fded24
+o
+?src/main/java/com/berlin/telran/homework/math20220704/Main.java,d\3\d3d60d0d087bd0b144cb0182c0681f7134ca36bf
+m
+=src/main/java/com/berlin/telran/practice/casting/Casting.java,3\0\3083e749f3bce17ab173b348407bdadce91fb7eb
