@@ -18,36 +18,37 @@ public class Main {
 
 
         Giraffe giraffe1 = new Giraffe("John");
-            System.out.println("Giraffe1 name is " + giraffe1.name);
+        System.out.println("Girafe 1: ");
+        System.out.println(" name : " + giraffe1.name);
 
         Giraffe giraffe2 = new Giraffe("Jack", 4);
             System.out.println("Girafe 2: ");
-            System.out.println("name: "+ giraffe2.name +
-                    "age: " + giraffe2.age +
-                    "weight: " + giraffe2.weight +
-                    "colour: " + giraffe2.colour +
-                    "aderess: " + giraffe2.address);
+            System.out.println(" name: "+ giraffe2.name + ", " +
+                    " age: " + giraffe2.age + ", " +
+                    " weight: " + giraffe2.weight + ", " +
+                    " colour: " + giraffe2.colour + ", " +
+                    " aderess: " + giraffe2.address);
 
         Giraffe giraffe3 = new Giraffe("Mary", 5, 60);
         System.out.println("Girafe 3: ");
-            System.out.println("name: "+ giraffe3.name +
-                "age: " + giraffe3.age +
-                "weight: " + giraffe3.weight +
-                "colour: " + giraffe3.colour);
+            System.out.println("name: "+ giraffe3.name + ", " +
+                " age: " + giraffe3.age + ", " +
+                " weight: " + giraffe3.weight + ", " +
+                " colour: " + giraffe3.colour);
 
-        Giraffe giraffe4  = new Giraffe(300,"Red")
+        Giraffe giraffe4  = new Giraffe(300,"Red");
         System.out.println("Girafe 4: ");
-        System.out.println("name: "+ giraffe4.name +
-                "weight: " + giraffe4.weight +
-                "colour: " + giraffe3.colour +
-                "age: " + giraffe4.age);
+        System.out.println(" name: "+ giraffe4.name + ", " +
+                " weight: " + giraffe4.weight + ", " +
+                " colour: " + giraffe3.colour + ", " +
+                " age: " + giraffe4.age);
 
         Giraffe giraffe5 = new Giraffe(150,"Green", "Berlin Zoo");
             System.out.println("Girafe 5: ");
         System.out.println(
-                "weight: " + giraffe4.weight +
-                "colour: " + giraffe3.colour +
-                "age: " + giraffe4.age +
-                "address: " + giraffe5.address);
+                " weight: " + giraffe4.weight + ", " +
+                " colour: " + giraffe3.colour + ", " +
+                " age: " + giraffe4.age + ", " +
+                " address: " + giraffe5.address);
     }
 }
