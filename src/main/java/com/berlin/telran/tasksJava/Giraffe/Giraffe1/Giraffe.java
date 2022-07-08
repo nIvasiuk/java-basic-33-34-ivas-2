@@ -25,6 +25,8 @@ public class Giraffe {
     // 1.  самый простой контструктор содержит один параметр name
     public Giraffe (String name) {
         this.name = name;
+        System.out.println("Girafe 1: ");
+        System.out.println(" name : " + this.name);
     }
 
     // 2. конструктор, имеющий name and  age. weight для всех жирафов будет одинаковый

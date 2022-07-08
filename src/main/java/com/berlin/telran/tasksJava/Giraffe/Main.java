@@ -18,8 +18,8 @@ public class Main {
 
 
         Giraffe giraffe1 = new Giraffe("John");
-        System.out.println("Girafe 1: ");
-        System.out.println(" name : " + giraffe1.name);
+//        System.out.println("Girafe 1: ");
+//        System.out.println(" name : " + giraffe1.name);
 
         Giraffe giraffe2 = new Giraffe("Jack", 4);
             System.out.println("Girafe 2: ");
