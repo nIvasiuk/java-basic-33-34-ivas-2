@@ -37,6 +37,7 @@ public class Casting  {
 //            int a = 3;
 //            double b = 4.7;
 //            double c = a + b;
+  //      int c = (int) (a + b);
 //
 //            System.out.println("double = " + c);
 //
@@ -74,18 +75,19 @@ public class Casting  {
             int c = a + 5;
         System.out.println("char = " +c);
 
-        char ch = '3'; // ch = 51 (accordin  ASCII table)
+        char ch = '3'; // ch = 51 (according  ASCII table)
         System.out.println("char value + " + ch);
 
         int f = ch - '0'; // 51-48 (accordin  ASCII table)
         System.out.println("int value = " + f);
 
         // valueOf()
-        int r = Integer.parseInt(String.valueOf(ch));
+        int r = Integer.parseInt(String.valueOf(ch)); // ch -> str -> int
         System.out.println("int value from method valueOf() = " +r);
 
         int e = Character.getNumericValue(ch);
         System.out.println("int value from method getNumericValue() = " + e);
+
 
 
 

@@ -7,12 +7,8 @@ n
 ,.idea/inspectionProfiles/Project_Default.xml,4\9\496a238a6afa168dbaf6efd37bb459331589579c
 h
 8src/main/java/com/berlin/telran/homework/erste/Main.java,f\e\fe5e7f726eebfa07d380fe2e32eade06255b47ae
-k
-;src/main/java/com/berlin/telran/tasksJava/lesson2/Main.java,8\7\8755b849b839717d66015526ed5fbf3db65f6f8a
 x
 Hsrc/main/java/com/berlin/telran/tasksJava/TaskJava_22_06_17new/Main.java,c\8\c8fa7cfbad22d6170dd3e93b4daae4983ebf07a4
-m
-=src/main/java/com/berlin/telran/tasksJava/lesson2/Person.java,3\1\316a7583913a7ef3b0b4d0165ffb1d83c3dd0aff
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
@@ -20,13 +16,5 @@ k
 ;src/main/java/com/berlin/telran/homework/game/hero/Ork.java,4\5\451aa7144ce1a17c1092ee08291a65d8f7561ec4
 l
 <src/main/java/com/berlin/telran/practice/variables/Main.java,8\a\8a366fcbfe1bbf7c0351d7f060ad9c31c5562f72
-x
-Hsrc/main/java/com/berlin/telran/tasksJava/TaskJava_22_06_17new/Math.java,4\6\46b91d885b00b4fb9c50c398ec8bcd4237bc9b15
 p
 @src/main/java/com/berlin/telran/practice/variables/Variable.java,3\2\32d054afceb36c3d2c6376b55beb7abaa0cb96e8
-u
-Esrc/main/java/com/berlin/telran/practice/variables/VariablesMain.java,c\0\c0485b23b20b3eab62e02a16f9a52ad890fded24
-o
-?src/main/java/com/berlin/telran/homework/math20220704/Main.java,d\3\d3d60d0d087bd0b144cb0182c0681f7134ca36bf
-m
-=src/main/java/com/berlin/telran/practice/casting/Casting.java,3\0\3083e749f3bce17ab173b348407bdadce91fb7eb

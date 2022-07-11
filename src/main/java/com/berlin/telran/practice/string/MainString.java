@@ -1,5 +1,7 @@
 package com.berlin.telran.practice.string;
 
+import com.berlin.telran.homework.game.hero.Elf;
+
 public class MainString {
     public static void main(String[] args) {
         int n = 3;
@@ -12,6 +14,10 @@ public class MainString {
         System.out.println(name);
         name = "Nadiia";
         System.out.println(name);
+
+        Elf hero;
+
+
 
     }
 
