@@ -9,11 +9,12 @@ public class CastHomework {
 //        1. Выведите на экран строку "3 cups", полученную из числа 3.9 и строки "cups",
 //        используя преобразования типов, и конкатенацию.
 //
-//        double a = 3.9;
-//        int a1 = (int) a;
-//        String b = "cups";
+//        double count = 3.9;
+//        int count1 = (int) count;
+//        String cups = "cups";
 //
-//        System.out.println( a1 + " " + b );
+//        System.out.println( count1 + " " + cups );
+        //  or System.out.println((int) count + " " + cups );
 
 
 //    2/ Выведите на экран строку "4 cups", полученную из числа 3.9 и строки "cups", используя округление, и конкатенацию.
@@ -70,6 +71,9 @@ public class CastHomework {
                 name.charAt(0);
         System.out.println(name.charAt(0));
 
+
+        // String str = "any string";
+        // getFirstLetter
 
     }
 }
