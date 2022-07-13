@@ -18,12 +18,8 @@ l
 <src/main/java/com/berlin/telran/practice/variables/Main.java,8\a\8a366fcbfe1bbf7c0351d7f060ad9c31c5562f72
 p
 @src/main/java/com/berlin/telran/practice/variables/Variable.java,3\2\32d054afceb36c3d2c6376b55beb7abaa0cb96e8
-k
-;src/main/java/com/berlin/telran/tasksJava/Giraffe/Main.java,5\1\51bc62518c6b92b5c16e0ffaf31c40ed8059a015
 y
 Isrc/main/java/com/berlin/telran/tasksJava/Giraffe/Constants/Constant.java,c\0\c0389133faa85543ccfb653ea591c3490eae53ea
-w
-Gsrc/main/java/com/berlin/telran/tasksJava/Giraffe/Giraffe1/Giraffe.java,1\c\1cf7224875fc5f2b0176ea9f57d62efaaa640648
 k
 ;src/main/java/com/berlin/telran/homework/game/hero/Elf.java,0\e\0e181c58c42fa41727a4cc78abafddb80e589d7b
 b
