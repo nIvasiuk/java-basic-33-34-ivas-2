@@ -17,5 +17,6 @@ public class MainRect {
 
         rectangle1.calcPerimeter();
 
+        rectangle1.calcArea();
     }
 }

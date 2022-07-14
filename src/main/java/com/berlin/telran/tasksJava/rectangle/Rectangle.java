@@ -15,7 +15,11 @@ public class Rectangle {
        System.out.println("The perimeter of the rectangl is: " + perim);
     }
 
+    public void calcArea () {
+        int area = lenght * widht;
 
+        System.out.println("The area of the rectangl is: " + area);
+    }
 
 
 
