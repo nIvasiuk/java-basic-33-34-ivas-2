@@ -4,9 +4,12 @@ public class Rectangle {
     int lenght;
     int widht;
 
+    public static int counter = 0;
+
     public Rectangle (int lenght, int widht){
         this.lenght = lenght;
         this.widht = widht;
+        counter += 1;
     }
 
     public void calcPerimeter () {
@@ -21,7 +24,16 @@ public class Rectangle {
         System.out.println("The area of the rectangl is: " + area);
     }
 
+    public void checkQuad () {
+        boolean isQuad = lenght == widht;
 
+        System.out.println("This rectangle is quad - " + isQuad);
+    }
 
+    public static void getCount () {
+
+        System.out.println("Number of rectangels created: " + counter);
+
+    }
 
 }
