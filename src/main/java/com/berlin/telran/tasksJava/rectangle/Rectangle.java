@@ -6,12 +6,21 @@ public class Rectangle {
 
     public static int counter = 0;
 
+    /**
+     *
+     * @param lenght
+     * @param widht
+     */
     public Rectangle (int lenght, int widht){
         this.lenght = lenght;
         this.widht = widht;
         counter += 1;
     }
 
+    /**
+     * Calculates perimeter of the rectangle
+     * @return Print rectangle perimeter
+     */
     public void calcPerimeter () {
         int perim = 2 * (lenght + widht);
 
