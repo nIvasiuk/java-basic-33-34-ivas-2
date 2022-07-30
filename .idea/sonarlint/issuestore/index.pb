@@ -7,10 +7,6 @@ x
 Hsrc/main/java/com/berlin/telran/tasksJava/TaskJava_22_06_17new/Math.java,4\6\46b91d885b00b4fb9c50c398ec8bcd4237bc9b15
 w
 Gsrc/main/java/com/berlin/telran/tasksJava/Giraffe/Giraffe1/Giraffe.java,1\c\1cf7224875fc5f2b0176ea9f57d62efaaa640648
-o
-?src/main/java/com/berlin/telran/practice/scaner/TestScaner.java,1\1\115867f166b0c93556fec1787e139ee1b950c65b
-x
-Hsrc/main/java/com/berlin/telran/homework/casting220711/CastHomework.java,d\2\d2f3430fb7cda58ff46c937baec96c14929b8bb8
 k
 ;src/main/java/com/berlin/telran/tasksJava/Giraffe/Main.java,5\1\51bc62518c6b92b5c16e0ffaf31c40ed8059a015
 s
