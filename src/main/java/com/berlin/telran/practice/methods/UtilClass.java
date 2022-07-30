@@ -44,16 +44,17 @@ public class UtilClass {
     void printChar(char ch) {
         String res = String.valueOf(ch);
         System.out.println("result char = " + res);
-}
+    }
 
-public int getSum(int num1, int num2) {
+    public int getSum(int num1, int num2) {
         int res = num1 + num2;
-        String str = String.valueOf(res);
-    Elf elf = new Elf();
-        return res;
 
+        Elf elf = new Elf();
+        int elfLevel = elf.getLevel();
 
+        int resLevelElf = res + elfLevel;
 
-}
+        return resLevelElf;
+    }
 
 }
