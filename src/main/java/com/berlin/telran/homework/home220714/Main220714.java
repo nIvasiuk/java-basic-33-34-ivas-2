@@ -6,6 +6,16 @@ public class Main220714 {
 
     public static void main(String[] args) {
 
+        System.out.println(addition(10, 5));
+        System.out.println(subtraction(10, 5));
+        System.out.println(multiplication(10, 5));
+        System.out.println(dividing(10, 5));
+        System.out.println(euroToUsd(100.00));
+        System.out.println(calcColories(28, 24) + " Cal");
+
+
+
+
         /*
         enter 2 words, use a scanner consisting of an even number of letters
         (check for the number of letters in the word).
@@ -13,30 +23,31 @@ public class Main220714 {
         of the second word. print to console.
         */
 
-        System.out.println("Enter the first word:");
-        Scanner scannerWord1 = new Scanner(System.in);
-        String word1= scannerWord1.nextLine();
+            System.out.println("Enter the first word:");
+            Scanner scannerWord1 = new Scanner(System.in);
+            String word1 = scannerWord1.nextLine();
 
-        System.out.println("Enter the second word:");
-        Scanner scannerWord2 = new Scanner(System.in);
-        String word2= scannerWord1.nextLine();
+            System.out.println("Enter the second word:");
+            Scanner scannerWord2 = new Scanner(System.in);
+            String word2 = scannerWord1.nextLine();
 
-        int beginWord1 = word1.length();
-        int endWord1 = word1.length()/2;
 
-        int beginWord2 = word2.length()/2;
+            int midleIndexWord1 = word1.length() / 2;
+
+            int midleIndexWord2 = word2.length() / 2;
 
 
 //        System.out.println(endWord1);
 //        System.out.println(beginWord2);
 
 
-        System.out.println(word1.substring(word1.length() - beginWord1 , word1.length() - endWord1));
-        System.out.println(word2.substring(word2.length() - beginWord2));
+            System.out.println(word1.substring(0, midleIndexWord1));
+            System.out.println(word2.substring(midleIndexWord2));
 
-        System.out.println(word1.substring(word1.length() - beginWord1 , word1.length() - endWord1)+word2.substring(word2.length() - beginWord2));
+            System.out.println(word1.substring(0, midleIndexWord1) + word2.substring(midleIndexWord2));
 
-    }
+        }
+
         /*
         Implement the program that prints to screen the results of addition, subtraction,
         multiplication and division of two numbers.
@@ -50,13 +61,15 @@ public class Main220714 {
     public static int subtraction (int a, int b) {
         return a - b;
     }
-    public static int multiplying (int a, int b) {
+    public static int multiplication (int a, int b) {
         return a * b;
     }
 
     public static int dividing (int a, int b){
         return a / b;
     }
+    // implement the method that convert the given amount in EUR to amount in USD
+
 
     public static double euroToUsd (double euro) {
         double kurs = 0.98; // euro for 1 dollar
