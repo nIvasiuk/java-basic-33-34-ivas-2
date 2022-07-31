@@ -21,6 +21,7 @@ public class SinpleStringMain {
         String str = new String("I study Basic Java!");
 
         printString(str);
+        printString(str1);
 
         System.out.println("Last symbol = " + str.charAt(str.length() - 1));
         System.out.println(str.contains("Java"));
@@ -32,7 +33,7 @@ public class SinpleStringMain {
 
     }
 
-public static void printString(String str) {
+public static void printString(String str) {  // this Method prints Strings
     System.out.println(str);
 }
 
