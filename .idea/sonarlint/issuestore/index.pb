@@ -25,8 +25,6 @@ x
 Hsrc/main/java/com/berlin/telran/homework/casting220711/CastHomework.java,d\2\d2f3430fb7cda58ff46c937baec96c14929b8bb8
 m
 =src/main/java/com/berlin/telran/practice/casting/Casting.java,3\0\3083e749f3bce17ab173b348407bdadce91fb7eb
-o
-?src/main/java/com/berlin/telran/practice/scaner/TestScaner.java,1\1\115867f166b0c93556fec1787e139ee1b950c65b
 x
 Hsrc/main/java/com/berlin/telran/tasksJava/Less_2022_07_15/LessClass.java,0\d\0d58837b04655b33dd9eabb5adc91c26e5695600
 o
