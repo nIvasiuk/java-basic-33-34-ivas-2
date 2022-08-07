@@ -7,20 +7,18 @@ public class UtilClass {
 //        int idx = 1;
 //    }
 
-
-
     /*
     синтаксис метода
     <модификатор> <static - опция> <тип данных или ничего(void)>
+
+    <static - опция> - есть -> можем обращаться без создания экземпляра класса.
+    .............. опция -> обращаемся (получаем доступ) через создание экземпляра класса (объекта, через 'new').
      */
 
-
-
     public static void printInt (int num) {
-        num = num + 1;
-        String res = String.valueOf(num);
+        num = num + 1;                             // num++ (add 1)
+        String res = String.valueOf(num);  // интродьюсим инт в стринг
         System.out.println("result = " + res);
-
     }
 
     public void printLong (long num){

@@ -64,6 +64,8 @@ public class Main220714 {
     public static int dividing (int a, int b){
         return a / b;
     }
+
+
                 /*
                 implement the method that convert the given amount in EUR to amount in USD
                 */
@@ -85,7 +87,7 @@ public class Main220714 {
     public static int calcColories (double smallDiameter, double bigDiameter) {
         double firstSquare = Math.PI * (smallDiameter / 2) * (smallDiameter / 2);
         double secondSquare = Math.PI * (bigDiameter / 2) * (bigDiameter / 2);
-        return (int) Math.round((bigDiameter - smallDiameter) / 40 );
+        return (int) Math.round((bigDiameter - smallDiameter) * 40 );
     }
 
 

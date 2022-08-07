@@ -2,9 +2,9 @@ package com.berlin.telran.practice.methods;
 
 public class MethodRun {
     public static void main(String[] args) {
-        UtilClass.printInt(4);
+        UtilClass.printInt(4);  // .дай мне статичный метод
 
-        UtilClass methodMain = new UtilClass();
-   methodMain.printLong (5);
+        UtilClass myClass = new UtilClass();
+        myClass.printLong (5); // .дай мне НЕ статичнфй метода
     }
 }
