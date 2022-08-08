@@ -31,3 +31,17 @@ o
 ?src/main/java/com/berlin/telran/practice/string/MainString.java,1\5\1517a2eef5236f0c36e8fcf3aacb66a6729623ef
 |
 Lsrc/main/java/com/berlin/telran/practice/methods/submethod/SubMethodRun.java,a\2\a249f4f572a40dc29a11095ef672857775d3a633
+|
+Lsrc/main/java/com/berlin/telran/homework/simple_string/SinpleStringMain.java,5\d\5deab3347dd7601f0659eeb1873f9d4fbbb467d1
+
+Osrc/main/java/com/berlin/telran/homework/home220717_by_Alex/Main220717Alex.java,1\c\1caff603535cf088283eb54bd579f15d4a98ec2c
+„
+Tsrc/main/java/com/berlin/telran/homework/home220717_by_Alex/Methods220717byAlex.java,8\5\85ed856da629cf0967e7ec0af6aa0d83553eb491
+o
+?src/main/java/com/berlin/telran/practice/methods/UtilClass.java,9\7\978402855db44d8156fd2823c82a370ee148ea14
+u
+Esrc/main/java/com/berlin/telran/practice/if_else_if/MainPractice.java,e\8\e8605fd0042e22712f8b21b683b8288985259cd5
+o
+?src/main/java/com/berlin/telran/practice/methods/MethodRun.java,f\1\f1c9de34bb96512cda6c4e53c4d2fc7f89ef26a0
+q
+Asrc/main/java/com/berlin/telran/tasksJava/if_else/MainIfElse.java,4\9\490eb47a965d28d428a71605a0e27d0bbc5ea897
