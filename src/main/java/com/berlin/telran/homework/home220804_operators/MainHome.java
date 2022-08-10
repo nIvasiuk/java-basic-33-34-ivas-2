@@ -15,7 +15,8 @@ public class MainHome {
         int number1 = scannerNumber.nextInt();
         System.out.println("Enter the 2-nd number:");
         int number2 = scannerNumber.nextInt();
-        System.out.println("Enter the 3-rd number:");
+        System.out.println("Enter the 3-rd num" +
+                "ber:");
         int number3 = scannerNumber.nextInt();
         System.out.println("Max number is " + (getMax( 25, 14, 120)));
 
